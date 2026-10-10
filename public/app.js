@@ -192,7 +192,14 @@ document.addEventListener('click', e => {
   if (w && !w.closest('.nowordtap')) { $$('.w.active').forEach(x => x.classList.remove('active')); w.classList.add('active'); openWordSheet(w.dataset.w); return; }
   if (e.target.closest('.sheet .x') || (!e.target.closest('.sheet') && !$('#sheet').classList.contains('hidden'))) closeSheet();
 });
-window.addEventListener('hashchange', route);
+// Pages -> box bridge: the Pages site opens <tunnel>/#import=<state>; merge it here (same origin as the API) and push.
+function importFromHash() {
+  if (!location.hash.startsWith('#import=')) return false;
+  try { S.p = ProgressMerge.merge(S.p, JSON.parse(decodeURIComponent(location.hash.slice(8)))); S.imported = true; } catch (e) {}
+  history.replaceState(null, '', location.pathname + '#/');
+  return true;
+}
+window.addEventListener('hashchange', () => { if (S.p && importFromHash()) save(); route(); });
 window.addEventListener('pageshow', e => { if (e.persisted) route(); });
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden' && S.p) push(); });
 
@@ -205,11 +212,7 @@ async function boot() {
     c.theories.forEach(th => { S.theory[th.id] = th; });
   } catch (e) { app.innerHTML = '<div class="loading">内容加载失败，请刷新页面重试。</div>'; return; }
   S.p = ProgressMerge.merge(ProgressMerge.blank(), loadLocal());
-  // Pages -> box bridge: the Pages site opens <tunnel>/#import=<state>; merge it here (same origin as the API) and push.
-  if (location.hash.startsWith('#import=')) {
-    try { S.p = ProgressMerge.merge(S.p, JSON.parse(decodeURIComponent(location.hash.slice(8)))); S.imported = true; } catch (e) {}
-    history.replaceState(null, '', location.pathname + '#/');
-  }
+  importFromHash();
   try { const r = await api('api/state', { cache: 'no-store' }); if (r.ok) { S.p = ProgressMerge.merge(S.p, await r.json()); S.synced = true; } } catch (e) { S.synced = false; }
   try { localStorage.setItem(KEY, JSON.stringify(S.p)); } catch (e) {}
   if ('speechSynthesis' in window) speechSynthesis.getVoices();
