@@ -1,0 +1,2640 @@
+{
+ "version": 1,
+ "voices": {
+  "default": "en-US-AvaNeural",
+  "Tom": "en-US-BrianNeural",
+  "Li": "en-US-JennyNeural",
+  "Amy": "en-US-AnaNeural",
+  "Seller": "en-US-GuyNeural",
+  "Dad": "en-US-GuyNeural",
+  "Mom": "en-US-AriaNeural"
+ },
+ "speakers": {
+  "Tom": {
+   "name": "Tom",
+   "avatar": "👦"
+  },
+  "Li": {
+   "name": "Li",
+   "avatar": "👧"
+  },
+  "Amy": {
+   "name": "Amy",
+   "avatar": "👩"
+  },
+  "Seller": {
+   "name": "店员",
+   "avatar": "🧑‍🌾"
+  },
+  "Dad": {
+   "name": "爸爸",
+   "avatar": "👨"
+  },
+  "Mom": {
+   "name": "妈妈",
+   "avatar": "👩‍🦱"
+  }
+ },
+ "units": [
+  {
+   "id": "u1",
+   "emoji": "👋",
+   "title": "be 动词：am / is / are",
+   "subtitle": "介绍自己：我是……",
+   "mnemonic": "我用 am，你用 are，is 跟着他她它",
+   "words": [
+    {
+     "id": "hello",
+     "en": "hello",
+     "zh": "你好",
+     "ipa": "/həˈloʊ/",
+     "sound": "哈喽",
+     "emoji": "👋",
+     "example": {
+      "en": "Hello, I am Tom.",
+      "zh": "你好，我是 Tom。",
+      "form": "Hello"
+     },
+     "ety": {
+      "origin": "19 世纪才出现，来自更早的喊人用语 hallo / hollo（“喂！”）。",
+      "story": "有趣的故事：1877 年电话刚发明时，爱迪生建议接电话时说 hello，后来它就成了全世界最常见的英语问候。",
+      "parts": [],
+      "family": null,
+      "related": [
+       {
+        "en": "hi",
+        "zh": "嗨（更随便的“你好”）"
+       },
+       {
+        "en": "hey",
+        "zh": "嘿（打招呼、叫人）"
+       }
+      ]
+     }
+    },
+    {
+     "id": "name",
+     "en": "name",
+     "zh": "名字",
+     "ipa": "/neɪm/",
+     "sound": "内姆",
+     "emoji": "📛",
+     "example": {
+      "en": "My name is Li.",
+      "zh": "我的名字是 Li。",
+      "form": "name"
+     },
+     "ety": {
+      "origin": "来自古英语 nama，和拉丁语 nomen（名字）是远亲。",
+      "story": "nickname（外号）原来是 an eke name（“额外的名字”），大家听成了 a neke name，后来就变成了 nickname。",
+      "parts": [
+       {
+        "part": "name / nom",
+        "meaning": "名字"
+       }
+      ],
+      "family": "name",
+      "related": [
+       {
+        "en": "nickname",
+        "zh": "外号，昵称"
+       },
+       {
+        "en": "noun",
+        "zh": "名词（来自拉丁语 nomen 名字）"
+       },
+       {
+        "en": "rename",
+        "zh": "重新命名（re- = 再）"
+       }
+      ]
+     }
+    },
+    {
+     "id": "friend",
+     "en": "friend",
+     "zh": "朋友",
+     "ipa": "/frend/",
+     "sound": "弗伦德",
+     "emoji": "👫",
+     "example": {
+      "en": "She is my friend.",
+      "zh": "她是我的朋友。",
+      "form": "friend"
+     },
+     "ety": {
+      "origin": "来自古英语 frēond，本来是动词 frēon（“爱”）的“……着的人”形式，意思就是“爱你的人”。",
+      "story": "free（自由）也来自同一个表示“爱、亲近”的古老词根。",
+      "parts": [
+       {
+        "part": "frie- / fre-",
+        "meaning": "爱、亲近"
+       },
+       {
+        "part": "-ship（派生）",
+        "meaning": "……的关系"
+       }
+      ],
+      "family": "friend",
+      "related": [
+       {
+        "en": "friendship",
+        "zh": "友谊（-ship = ……的关系）"
+       },
+       {
+        "en": "friendly",
+        "zh": "友好的（-ly = ……样的）"
+       },
+       {
+        "en": "boyfriend",
+        "zh": "男朋友"
+       }
+      ]
+     }
+    },
+    {
+     "id": "student",
+     "en": "student",
+     "zh": "学生",
+     "ipa": "/ˈstuːdənt/",
+     "sound": "斯丢登特",
+     "emoji": "🧑‍🎓",
+     "example": {
+      "en": "I am a student.",
+      "zh": "我是学生。",
+      "form": "student"
+     },
+     "ety": {
+      "origin": "来自拉丁语 studere（用功、学习），student 就是“在用功的人”。",
+      "parts": [
+       {
+        "part": "stud-",
+        "meaning": "学习、用功"
+       },
+       {
+        "part": "-ent",
+        "meaning": "……的人"
+       }
+      ],
+      "family": "stud",
+      "related": [
+       {
+        "en": "study",
+        "zh": "学习"
+       },
+       {
+        "en": "studio",
+        "zh": "工作室（原意：用功的地方）"
+       }
+      ]
+     }
+    },
+    {
+     "id": "happy",
+     "en": "happy",
+     "zh": "开心",
+     "ipa": "/ˈhæpi/",
+     "sound": "哈皮",
+     "emoji": "😄",
+     "example": {
+      "en": "I am happy.",
+      "zh": "我很开心。",
+      "form": "happy"
+     },
+     "ety": {
+      "origin": "来自 hap（运气）+ -y（……的）。最早的意思是“运气好的”，后来才变成“开心的”。",
+      "parts": [
+       {
+        "part": "hap",
+        "meaning": "运气、碰巧"
+       },
+       {
+        "part": "-y",
+        "meaning": "……的（变成形容词）"
+       }
+      ],
+      "family": "hap",
+      "related": [
+       {
+        "en": "happen",
+        "zh": "发生（碰巧来了）"
+       },
+       {
+        "en": "perhaps",
+        "zh": "也许（per 凭借 + haps 运气，复数）"
+       },
+       {
+        "en": "unhappy",
+        "zh": "不开心（un- = 不）"
+       }
+      ]
+     }
+    }
+   ],
+   "grammar": {
+    "title": "am / is / are 都是「是」",
+    "intro": "它们都表示「是」，但前面的人（主语）不同，用的词就不同。",
+    "points": [
+     {
+      "rule": "I（我）后面用 am",
+      "examples": [
+       {
+        "en": "I am a student.",
+        "zh": "我是学生。"
+       },
+       {
+        "en": "I am happy.",
+        "zh": "我很开心。"
+       }
+      ]
+     },
+     {
+      "rule": "he / she / it（他、她、它）和一个人名、一个东西后面用 is",
+      "examples": [
+       {
+        "en": "She is my friend.",
+        "zh": "她是我的朋友。"
+       },
+       {
+        "en": "My name is Li.",
+        "zh": "我的名字是 Li。"
+       }
+      ]
+     },
+     {
+      "rule": "you / we / they（你、我们、他们）后面用 are",
+      "examples": [
+       {
+        "en": "They are friends.",
+        "zh": "他们是朋友。"
+       },
+       {
+        "en": "You are my friend.",
+        "zh": "你是我的朋友。"
+       }
+      ]
+     }
+    ]
+   },
+   "story": {
+    "title": "认识新朋友",
+    "scene": "🏫 👦 👧 👩",
+    "lines": [
+     {
+      "speaker": "Tom",
+      "en": "Hello, I am Tom.",
+      "zh": "你好，我是 Tom。"
+     },
+     {
+      "speaker": "Li",
+      "en": "Hello, Tom. My name is Li.",
+      "zh": "你好，Tom。我的名字是 Li。"
+     },
+     {
+      "speaker": "Tom",
+      "en": "I am a student.",
+      "zh": "我是学生。"
+     },
+     {
+      "speaker": "Li",
+      "en": "I am a student, too.",
+      "zh": "我也是学生。"
+     },
+     {
+      "speaker": "Tom",
+      "en": "This is Amy. She is my friend.",
+      "zh": "这是 Amy。她是我的朋友。"
+     },
+     {
+      "speaker": "Amy",
+      "en": "Hi, Li! I am happy.",
+      "zh": "嗨，Li！我很开心。"
+     },
+     {
+      "speaker": "Li",
+      "en": "We are friends now!",
+      "zh": "我们现在是朋友了！"
+     }
+    ]
+   },
+   "fill": [
+    {
+     "q": "I ___ a student.",
+     "zh": "我是学生。",
+     "answer": "am",
+     "options": [
+      "am",
+      "is",
+      "are"
+     ],
+     "why": "主语是 I（我），I 后面用 am。"
+    },
+    {
+     "q": "She ___ my friend.",
+     "zh": "她是我的朋友。",
+     "answer": "is",
+     "options": [
+      "am",
+      "is",
+      "are"
+     ],
+     "why": "主语是 she（她），「is 跟着他她它」，用 is。"
+    },
+    {
+     "q": "They ___ happy.",
+     "zh": "他们很开心。",
+     "answer": "are",
+     "options": [
+      "am",
+      "is",
+      "are"
+     ],
+     "why": "主语是 they（他们），「你用 are」，你、我们、他们都用 are。"
+    },
+    {
+     "q": "My name ___ Li.",
+     "zh": "我的名字是 Li。",
+     "answer": "is",
+     "options": [
+      "am",
+      "is",
+      "are"
+     ],
+     "why": "主语是 my name（我的名字），是一个东西，相当于 it，用 is。"
+    },
+    {
+     "q": "Tom ___ happy.",
+     "zh": "Tom 很开心。",
+     "answer": "is",
+     "options": [
+      "am",
+      "is",
+      "are"
+     ],
+     "why": "Tom 是一个人名，相当于 he（他），用 is。"
+    },
+    {
+     "q": "We ___ students.",
+     "zh": "我们是学生。",
+     "answer": "are",
+     "options": [
+      "am",
+      "is",
+      "are"
+     ],
+     "why": "主语是 we（我们），用 are。"
+    }
+   ],
+   "translate": [
+    {
+     "zh": "我是学生。",
+     "answers": [
+      "I am a student.",
+      "I'm a student."
+     ],
+     "hint": "我 = I，是 = am，学生 = student",
+     "why": "I 后面用 am；「一个学生」前面要加 a：a student。"
+    },
+    {
+     "zh": "她是我的朋友。",
+     "answers": [
+      "She is my friend.",
+      "She's my friend."
+     ],
+     "hint": "她 = she，我的 = my，朋友 = friend",
+     "why": "she 后面用 is；「我的朋友」是 my friend。"
+    },
+    {
+     "zh": "我很开心。",
+     "answers": [
+      "I am happy.",
+      "I'm happy.",
+      "I am very happy.",
+      "I'm very happy."
+     ],
+     "hint": "开心 = happy",
+     "why": "英语里直接说 I am happy，「很」可以不翻。"
+    },
+    {
+     "zh": "他们是朋友。",
+     "answers": [
+      "They are friends.",
+      "They're friends."
+     ],
+     "hint": "他们 = they，朋友（多个）= friends",
+     "why": "they 后面用 are；朋友不止一个，要用复数 friends。"
+    }
+   ],
+   "shadow": [
+    "Hello, I am Tom.",
+    "My name is Li.",
+    "She is my friend.",
+    "I am a student.",
+    "I am happy.",
+    "They are friends."
+   ],
+   "dictation": [
+    {
+     "en": "I am a student.",
+     "zh": "我是学生。"
+    },
+    {
+     "en": "She is my friend.",
+     "zh": "她是我的朋友。"
+    },
+    {
+     "en": "My name is Li.",
+     "zh": "我的名字是 Li。"
+    },
+    {
+     "en": "They are friends.",
+     "zh": "他们是朋友。"
+    },
+    {
+     "en": "I am happy.",
+     "zh": "我很开心。"
+    }
+   ],
+   "skits": [
+    {
+     "id": "s1",
+     "title": "新同学",
+     "scene": "🏫 🎒",
+     "cast": [
+      "Amy",
+      "Tom",
+      "Li"
+     ],
+     "points": [
+      {
+       "name": "连读：辅音 + 元音连起来",
+       "note": "前一个词以辅音结尾、后一个词以元音开头时，两个词要连成一个音。My name is 读成 my nay-miz，I am a 读成 I-ya-ma。",
+       "drill": [
+        "name is",
+        "I am a",
+        "friend is"
+       ],
+       "kind": "phrase"
+      },
+      {
+       "name": "短元音 /æ/ 和 /e/",
+       "note": "happy 的 a 读 /æ/，嘴巴张大、嘴角往两边拉；friend 的 e 读 /e/，嘴巴张小一点。",
+       "drill": [
+        "bad / bed",
+        "man / men",
+        "pan / pen"
+       ],
+       "kind": "pair"
+      }
+     ],
+     "lines": [
+      {
+       "speaker": "Amy",
+       "en": "Hello! I am Amy. What is your name?",
+       "zh": "你好！我是 Amy。你叫什么名字？"
+      },
+      {
+       "speaker": "Tom",
+       "en": "My name is Tom.",
+       "zh": "我的名字是 Tom。"
+      },
+      {
+       "speaker": "Amy",
+       "en": "Are you a student?",
+       "zh": "你是学生吗？"
+      },
+      {
+       "speaker": "Tom",
+       "en": "Yes, I am a student.",
+       "zh": "是的，我是学生。"
+      },
+      {
+       "speaker": "Li",
+       "en": "Hi, Amy! Tom is my friend.",
+       "zh": "嗨，Amy！Tom 是我的朋友。"
+      },
+      {
+       "speaker": "Amy",
+       "en": "I am happy! We are friends!",
+       "zh": "我很开心！我们是朋友啦！"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "emoji": "👨‍👩‍👧",
+   "title": "代词：he / she / it，this / that",
+   "subtitle": "介绍家人和身边的东西",
+   "mnemonic": "男的用 he，女的用 she，东西动物都用 it；近的 this，远的 that",
+   "words": [
+    {
+     "id": "teacher",
+     "en": "teacher",
+     "zh": "老师",
+     "ipa": "/ˈtiːtʃər/",
+     "sound": "提彻",
+     "emoji": "👩‍🏫",
+     "example": {
+      "en": "She is my teacher.",
+      "zh": "她是我的老师。",
+      "form": "teacher"
+     },
+     "ety": {
+      "origin": "teach（教）+ -er（……的人）。teach 来自古英语 tǣcan，本义是“指给人看”。",
+      "parts": [
+       {
+        "part": "teach",
+        "meaning": "教（原意：指给人看）"
+       },
+       {
+        "part": "-er",
+        "meaning": "做……的人"
+       }
+      ],
+      "family": "er",
+      "related": [
+       {
+        "en": "reader",
+        "zh": "读者（read + -er）"
+       },
+       {
+        "en": "worker",
+        "zh": "工人（work + -er）"
+       },
+       {
+        "en": "player",
+        "zh": "运动员，玩家（play + -er）"
+       }
+      ]
+     }
+    },
+    {
+     "id": "mother",
+     "en": "mother",
+     "zh": "妈妈",
+     "ipa": "/ˈmʌðər/",
+     "sound": "妈泽",
+     "emoji": "👩‍👧",
+     "example": {
+      "en": "This is my mother.",
+      "zh": "这是我的妈妈。",
+      "form": "mother"
+     },
+     "ety": {
+      "origin": "来自古英语 mōdor，和拉丁语 mater、德语 Mutter 同源。",
+      "story": "很多语言里妈妈都以 m 开头（中文“妈”也是），一般认为是因为 ma 是宝宝最早、最容易发出的音之一。",
+      "parts": [
+       {
+        "part": "-ther",
+        "meaning": "古老的“家人”词尾"
+       }
+      ],
+      "family": "ther",
+      "related": [
+       {
+        "en": "brother",
+        "zh": "兄弟"
+       },
+       {
+        "en": "grandmother",
+        "zh": "奶奶，外婆"
+       },
+       {
+        "en": "mom",
+        "zh": "妈妈（口语）"
+       }
+      ]
+     }
+    },
+    {
+     "id": "father",
+     "en": "father",
+     "zh": "爸爸",
+     "ipa": "/ˈfɑːðər/",
+     "sound": "发泽",
+     "emoji": "👨‍👧",
+     "example": {
+      "en": "He is my father.",
+      "zh": "他是我的爸爸。",
+      "form": "father"
+     },
+     "ety": {
+      "origin": "来自古英语 fæder，和拉丁语 pater 同源。",
+      "story": "英语祖先把很多 p 音变成了 f 音，所以拉丁语 pater 对应英语 father，pater 的痕迹还留在 paternal（父亲的）里。",
+      "parts": [
+       {
+        "part": "-ther",
+        "meaning": "古老的“家人”词尾"
+       }
+      ],
+      "family": "ther",
+      "related": [
+       {
+        "en": "brother",
+        "zh": "兄弟"
+       },
+       {
+        "en": "grandfather",
+        "zh": "爷爷，外公"
+       },
+       {
+        "en": "dad",
+        "zh": "爸爸（口语）"
+       }
+      ]
+     }
+    },
+    {
+     "id": "cat",
+     "en": "cat",
+     "zh": "猫",
+     "ipa": "/kæt/",
+     "sound": "凯特",
+     "emoji": "🐱",
+     "example": {
+      "en": "It is a cat.",
+      "zh": "它是一只猫。",
+      "form": "cat"
+     },
+     "ety": {
+      "origin": "来自古英语 catt，更早来自晚期拉丁语 cattus。再往前从哪来，学者们也不确定。",
+      "story": "欧洲很多语言里“猫”都很像：法语 chat、德语 Katze、西班牙语 gato。",
+      "parts": [],
+      "family": null,
+      "related": [
+       {
+        "en": "kitten",
+        "zh": "小猫"
+       },
+       {
+        "en": "kitty",
+        "zh": "猫咪（昵称）"
+       }
+      ]
+     }
+    },
+    {
+     "id": "dog",
+     "en": "dog",
+     "zh": "狗",
+     "ipa": "/dɔːɡ/",
+     "sound": "多格",
+     "emoji": "🐶",
+     "example": {
+      "en": "That is my dog.",
+      "zh": "那是我的狗。",
+      "form": "dog"
+     },
+     "ety": {
+      "origin": "来自古英语 docga。它从哪儿来至今没人知道，被称为英语词源最大的谜之一。",
+      "story": "古英语里“狗”通常叫 hound，dog 后来才取代它；hound 现在指猎犬。",
+      "parts": [],
+      "family": null,
+      "related": [
+       {
+        "en": "puppy",
+        "zh": "小狗"
+       },
+       {
+        "en": "hot dog",
+        "zh": "热狗"
+       }
+      ]
+     }
+    },
+    {
+     "id": "book",
+     "en": "book",
+     "zh": "书",
+     "ipa": "/bʊk/",
+     "sound": "布克",
+     "emoji": "📕",
+     "example": {
+      "en": "This is a book.",
+      "zh": "这是一本书。",
+      "form": "book"
+     },
+     "ety": {
+      "origin": "来自古英语 bōc，一般认为和 beech（山毛榉树）有关：古代人把文字刻在山毛榉木板上。",
+      "parts": [
+       {
+        "part": "book",
+        "meaning": "书（可以和别的词组合）"
+       }
+      ],
+      "family": "book",
+      "related": [
+       {
+        "en": "notebook",
+        "zh": "笔记本"
+       },
+       {
+        "en": "bookstore",
+        "zh": "书店"
+       }
+      ]
+     }
+    },
+    {
+     "id": "phone",
+     "en": "phone",
+     "zh": "手机；电话",
+     "ipa": "/foʊn/",
+     "sound": "佛恩",
+     "emoji": "📱",
+     "example": {
+      "en": "That is your phone.",
+      "zh": "那是你的手机。",
+      "form": "phone"
+     },
+     "ety": {
+      "origin": "telephone（电话）的简称。来自希腊语 phōnē（声音），tele- 是“远”：telephone = 把声音传到远方。",
+      "parts": [
+       {
+        "part": "phone",
+        "meaning": "声音"
+       },
+       {
+        "part": "tele-",
+        "meaning": "远"
+       }
+      ],
+      "family": "phone",
+      "related": [
+       {
+        "en": "telephone",
+        "zh": "电话（远 + 声音）"
+       },
+       {
+        "en": "microphone",
+        "zh": "麦克风（micro 小 + 声音）"
+       },
+       {
+        "en": "headphones",
+        "zh": "耳机"
+       }
+      ]
+     }
+    }
+   ],
+   "grammar": {
+    "title": "说「他、她、它」和「这个、那个」",
+    "intro": "上一课学了 am / is / are，这一课学说「他、她、它」和「这个、那个」。",
+    "points": [
+     {
+      "rule": "he = 他（男的），she = 她（女的）",
+      "examples": [
+       {
+        "en": "He is my father.",
+        "zh": "他是我的爸爸。"
+       },
+       {
+        "en": "She is my teacher.",
+        "zh": "她是我的老师。"
+       }
+      ]
+     },
+     {
+      "rule": "it = 它（东西、动物）",
+      "examples": [
+       {
+        "en": "It is a cat.",
+        "zh": "它是一只猫。"
+       }
+      ]
+     },
+     {
+      "rule": "this = 这个（近的），that = 那个（远的）",
+      "examples": [
+       {
+        "en": "This is a book.",
+        "zh": "这是一本书。"
+       },
+       {
+        "en": "That is my dog.",
+        "zh": "那是我的狗。"
+       }
+      ]
+     },
+     {
+      "rule": "my = 我的，your = 你的（放在名词前面）",
+      "examples": [
+       {
+        "en": "This is my mother.",
+        "zh": "这是我的妈妈。"
+       },
+       {
+        "en": "That is your phone.",
+        "zh": "那是你的手机。"
+       }
+      ]
+     }
+    ]
+   },
+   "story": {
+    "title": "Li 的家",
+    "scene": "🏠 👨 👩 👧 🐱",
+    "lines": [
+     {
+      "speaker": "Li",
+      "en": "This is my family.",
+      "zh": "这是我的家人。"
+     },
+     {
+      "speaker": "Li",
+      "en": "This is my father. He is a teacher.",
+      "zh": "这是我的爸爸。他是一名老师。"
+     },
+     {
+      "speaker": "Li",
+      "en": "This is my mother. She is happy.",
+      "zh": "这是我的妈妈。她很开心。"
+     },
+     {
+      "speaker": "Li",
+      "en": "This is my cat. It is small.",
+      "zh": "这是我的猫。它很小。"
+     },
+     {
+      "speaker": "Tom",
+      "en": "Is that your dog?",
+      "zh": "那是你的狗吗？"
+     },
+     {
+      "speaker": "Li",
+      "en": "No. It is Amy's dog.",
+      "zh": "不是。它是 Amy 的狗。"
+     },
+     {
+      "speaker": "Tom",
+      "en": "Your family is great!",
+      "zh": "你的家人真好！"
+     }
+    ]
+   },
+   "fill": [
+    {
+     "q": "This is my father. ___ is a teacher.",
+     "zh": "这是我的爸爸。他是一名老师。",
+     "answer": "He",
+     "options": [
+      "He",
+      "She",
+      "It"
+     ],
+     "why": "father（爸爸）是男的，用 he（他）。"
+    },
+    {
+     "q": "This is my mother. ___ is happy.",
+     "zh": "这是我的妈妈。她很开心。",
+     "answer": "She",
+     "options": [
+      "He",
+      "She",
+      "It"
+     ],
+     "why": "mother（妈妈）是女的，用 she（她）。"
+    },
+    {
+     "q": "This is my cat. ___ is small.",
+     "zh": "这是我的猫。它很小。",
+     "answer": "It",
+     "options": [
+      "He",
+      "She",
+      "It"
+     ],
+     "why": "cat（猫）是动物，动物和东西都用 it（它）。"
+    },
+    {
+     "q": "(书在我手里) ___ is a book.",
+     "zh": "这是一本书。",
+     "answer": "This",
+     "options": [
+      "This",
+      "That"
+     ],
+     "why": "书就在手里，是近的，用 this（这个）。"
+    },
+    {
+     "q": "(狗在远处) ___ is my dog.",
+     "zh": "那是我的狗。",
+     "answer": "That",
+     "options": [
+      "This",
+      "That"
+     ],
+     "why": "狗在远处，用 that（那个）。"
+    },
+    {
+     "q": "He ___ my father.",
+     "zh": "他是我的爸爸。",
+     "answer": "is",
+     "options": [
+      "am",
+      "is",
+      "are"
+     ],
+     "why": "复习第 1 课：he（他）后面用 is。"
+    }
+   ],
+   "translate": [
+    {
+     "zh": "这是一本书。",
+     "answers": [
+      "This is a book."
+     ],
+     "hint": "这 = this，书 = book",
+     "why": "「这是」= This is；「一本书」= a book。"
+    },
+    {
+     "zh": "他是我的爸爸。",
+     "answers": [
+      "He is my father.",
+      "He's my father."
+     ],
+     "hint": "他 = he，爸爸 = father",
+     "why": "he 后面用 is；「我的爸爸」= my father。"
+    },
+    {
+     "zh": "那是我的狗。",
+     "answers": [
+      "That is my dog.",
+      "That's my dog."
+     ],
+     "hint": "那 = that，狗 = dog",
+     "why": "远的用 that；「我的狗」= my dog。"
+    },
+    {
+     "zh": "她是一名老师。",
+     "answers": [
+      "She is a teacher.",
+      "She's a teacher."
+     ],
+     "hint": "老师 = teacher",
+     "why": "she 后面用 is；「一名老师」前面加 a：a teacher。"
+    }
+   ],
+   "shadow": [
+    "She is my teacher.",
+    "This is my mother.",
+    "He is my father.",
+    "It is a cat.",
+    "That is my dog.",
+    "This is a book."
+   ],
+   "dictation": [
+    {
+     "en": "This is a book.",
+     "zh": "这是一本书。"
+    },
+    {
+     "en": "He is my father.",
+     "zh": "他是我的爸爸。"
+    },
+    {
+     "en": "It is a cat.",
+     "zh": "它是一只猫。"
+    },
+    {
+     "en": "That is my dog.",
+     "zh": "那是我的狗。"
+    },
+    {
+     "en": "She is my teacher.",
+     "zh": "她是我的老师。"
+    }
+   ],
+   "skits": [
+    {
+     "id": "s2",
+     "title": "那是谁的猫？",
+     "scene": "🏠 🐱 🐶",
+     "cast": [
+      "Li",
+      "Dad",
+      "Amy"
+     ],
+     "points": [
+      {
+       "name": "th 音 /ð/（this, that, father）",
+       "note": "舌尖轻轻放在上下牙齿中间，送气同时让声带振动。不要读成 d 或 z：this 不是 dis。",
+       "drill": [
+        "they / day",
+        "then / den",
+        "those / doze"
+       ],
+       "kind": "pair"
+      },
+      {
+       "name": "短元音 /ɪ/ 和长元音 /iː/",
+       "note": "this 的 i 短而放松；these 的 ee 长，嘴角往两边拉。",
+       "drill": [
+        "this / these",
+        "it / eat"
+       ],
+       "kind": "pair"
+      }
+     ],
+     "lines": [
+      {
+       "speaker": "Li",
+       "en": "Dad, this is my friend, Amy.",
+       "zh": "爸爸，这是我的朋友 Amy。"
+      },
+      {
+       "speaker": "Dad",
+       "en": "Hello, Amy. Nice to meet you.",
+       "zh": "你好，Amy。很高兴认识你。"
+      },
+      {
+       "speaker": "Amy",
+       "en": "Hello! Is that your cat?",
+       "zh": "你好！那是你们的猫吗？"
+      },
+      {
+       "speaker": "Li",
+       "en": "Yes, that is my cat.",
+       "zh": "是的，那是我的猫。"
+      },
+      {
+       "speaker": "Dad",
+       "en": "And this is my dog.",
+       "zh": "这是我的狗。"
+      },
+      {
+       "speaker": "Amy",
+       "en": "They are so cute!",
+       "zh": "它们好可爱！"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "emoji": "🍚",
+   "title": "每天做的事：一般现在时",
+   "subtitle": "吃、喝、去、读……",
+   "mnemonic": "他她它做事，动词后面加个 s",
+   "words": [
+    {
+     "id": "eat",
+     "en": "eat",
+     "zh": "吃",
+     "ipa": "/iːt/",
+     "sound": "伊特",
+     "emoji": "🍚",
+     "example": {
+      "en": "I eat rice.",
+      "zh": "我吃米饭。",
+      "form": "eat"
+     },
+     "ety": {
+      "origin": "来自古英语 etan，和拉丁语 edere（吃）同源。",
+      "parts": [
+       {
+        "part": "eat / ed-",
+        "meaning": "吃"
+       }
+      ],
+      "family": "eat",
+      "related": [
+       {
+        "en": "eater",
+        "zh": "吃东西的人（-er）"
+       },
+       {
+        "en": "edible",
+        "zh": "可以吃的（来自拉丁语 edere）"
+       }
+      ]
+     }
+    },
+    {
+     "id": "drink",
+     "en": "drink",
+     "zh": "喝",
+     "ipa": "/drɪŋk/",
+     "sound": "德林克",
+     "emoji": "🥤",
+     "example": {
+      "en": "She drinks water.",
+      "zh": "她喝水。",
+      "form": "drinks"
+     },
+     "ety": {
+      "origin": "来自古英语 drincan。",
+      "story": "它的过去式是 drank，过去分词是 drunk，只变中间的元音 i → a → u，就像 sing / sang / sung。",
+      "parts": [],
+      "family": "drink",
+      "related": [
+       {
+        "en": "drank",
+        "zh": "喝了（过去式）"
+       },
+       {
+        "en": "drunk",
+        "zh": "喝醉的"
+       },
+       {
+        "en": "drinker",
+        "zh": "喝……的人（-er）"
+       }
+      ]
+     }
+    },
+    {
+     "id": "like",
+     "en": "like",
+     "zh": "喜欢",
+     "ipa": "/laɪk/",
+     "sound": "莱克",
+     "emoji": "❤️",
+     "example": {
+      "en": "I like cats.",
+      "zh": "我喜欢猫。",
+      "form": "like"
+     },
+     "ety": {
+      "origin": "来自古英语 līcian，本来的意思是“使人高兴”。",
+      "story": "古英语里要说“我喜欢它”，要说成“它使我高兴”，主语和宾语正好反过来。",
+      "parts": [],
+      "family": "like",
+      "related": [
+       {
+        "en": "dislike",
+        "zh": "不喜欢（dis- = 不）"
+       },
+       {
+        "en": "likeable",
+        "zh": "讨人喜欢的（-able = 能……的）"
+       }
+      ]
+     }
+    },
+    {
+     "id": "go",
+     "en": "go",
+     "zh": "去",
+     "ipa": "/ɡoʊ/",
+     "sound": "够",
+     "emoji": "🚶",
+     "example": {
+      "en": "We go to school.",
+      "zh": "我们去上学。",
+      "form": "go"
+     },
+     "ety": {
+      "origin": "来自古英语 gān。",
+      "story": "go 的过去式 went 其实是“借来的”：它原本是另一个动词 wend（行走）的过去式。",
+      "parts": [],
+      "family": "go",
+      "related": [
+       {
+        "en": "went",
+        "zh": "去了（go 的过去式）"
+       },
+       {
+        "en": "gone",
+        "zh": "走了，不见了"
+       }
+      ]
+     }
+    },
+    {
+     "id": "read",
+     "en": "read",
+     "zh": "读；看（书）",
+     "ipa": "/riːd/",
+     "sound": "瑞德",
+     "emoji": "📖",
+     "example": {
+      "en": "He reads a book.",
+      "zh": "他读一本书。",
+      "form": "reads"
+     },
+     "ety": {
+      "origin": "来自古英语 rǣdan，最早的意思是“出主意、解读、猜”。",
+      "story": "riddle（谜语）也来自同一个词：谜语就是需要你“解读”的话。",
+      "parts": [
+       {
+        "part": "read",
+        "meaning": "解读"
+       },
+       {
+        "part": "-er",
+        "meaning": "……的人（reader）"
+       }
+      ],
+      "family": "read",
+      "related": [
+       {
+        "en": "reader",
+        "zh": "读者"
+       },
+       {
+        "en": "riddle",
+        "zh": "谜语"
+       }
+      ]
+     }
+    },
+    {
+     "id": "work",
+     "en": "work",
+     "zh": "工作",
+     "ipa": "/wɜːrk/",
+     "sound": "沃克",
+     "emoji": "💼",
+     "example": {
+      "en": "My father works every day.",
+      "zh": "我爸爸每天工作。",
+      "form": "works"
+     },
+     "ety": {
+      "origin": "来自古英语 weorc，和希腊语 ergon（工作）同源。",
+      "parts": [
+       {
+        "part": "work / erg",
+        "meaning": "做、工作"
+       }
+      ],
+      "family": "work",
+      "related": [
+       {
+        "en": "homework",
+        "zh": "家庭作业（home + work）"
+       },
+       {
+        "en": "worker",
+        "zh": "工人"
+       },
+       {
+        "en": "energy",
+        "zh": "能量（来自希腊语 ergon 工作）"
+       }
+      ]
+     }
+    },
+    {
+     "id": "sleep",
+     "en": "sleep",
+     "zh": "睡觉",
+     "ipa": "/sliːp/",
+     "sound": "斯利普",
+     "emoji": "😴",
+     "example": {
+      "en": "The cat sleeps on the bed.",
+      "zh": "猫在床上睡觉。",
+      "form": "sleeps"
+     },
+     "ety": {
+      "origin": "来自古英语 slǣp。",
+      "parts": [
+       {
+        "part": "a-",
+        "meaning": "在……状态中（asleep）"
+       },
+       {
+        "part": "-y",
+        "meaning": "……的（sleepy）"
+       }
+      ],
+      "family": "sleep",
+      "related": [
+       {
+        "en": "sleepy",
+        "zh": "困的，想睡的"
+       },
+       {
+        "en": "asleep",
+        "zh": "睡着的"
+       }
+      ]
+     }
+    },
+    {
+     "id": "play",
+     "en": "play",
+     "zh": "玩；踢（球）",
+     "ipa": "/pleɪ/",
+     "sound": "普雷",
+     "emoji": "⚽",
+     "example": {
+      "en": "They play football.",
+      "zh": "他们踢足球。",
+      "form": "play"
+     },
+     "ety": {
+      "origin": "来自古英语 plegan，意思是“活动、玩耍”。",
+      "parts": [
+       {
+        "part": "-er",
+        "meaning": "做……的人（player）"
+       }
+      ],
+      "family": "er",
+      "related": [
+       {
+        "en": "player",
+        "zh": "运动员，玩家"
+       },
+       {
+        "en": "playground",
+        "zh": "操场（play + ground 地面）"
+       }
+      ]
+     }
+    }
+   ],
+   "grammar": {
+    "title": "说每天都做的事",
+    "intro": "说「每天、经常做的事」，英语用一般现在时。关键看主语是谁。",
+    "points": [
+     {
+      "rule": "I / you / we / they 后面：动词不变",
+      "examples": [
+       {
+        "en": "I eat rice.",
+        "zh": "我吃米饭。"
+       },
+       {
+        "en": "They play football.",
+        "zh": "他们踢足球。"
+       }
+      ]
+     },
+     {
+      "rule": "he / she / it 或一个人名后面：动词加 s",
+      "examples": [
+       {
+        "en": "She drinks water.",
+        "zh": "她喝水。"
+       },
+       {
+        "en": "He reads a book.",
+        "zh": "他读一本书。"
+       }
+      ]
+     },
+     {
+      "rule": "every day = 每天，放在句子最后",
+      "examples": [
+       {
+        "en": "My father works every day.",
+        "zh": "我爸爸每天工作。"
+       }
+      ]
+     }
+    ]
+   },
+   "story": {
+    "title": "Tom 的一天",
+    "scene": "🌅 🏫 ⚽ 🌙",
+    "lines": [
+     {
+      "speaker": "Tom",
+      "en": "Good morning! I eat bread.",
+      "zh": "早上好！我吃面包。"
+     },
+     {
+      "speaker": "Tom",
+      "en": "I drink milk.",
+      "zh": "我喝牛奶。"
+     },
+     {
+      "speaker": "Tom",
+      "en": "I go to school with Li.",
+      "zh": "我和 Li 一起去上学。"
+     },
+     {
+      "speaker": "Tom",
+      "en": "My father works every day.",
+      "zh": "我爸爸每天工作。"
+     },
+     {
+      "speaker": "Tom",
+      "en": "My mother reads books.",
+      "zh": "我妈妈看书。"
+     },
+     {
+      "speaker": "Tom",
+      "en": "After school, we play football.",
+      "zh": "放学后，我们踢足球。"
+     },
+     {
+      "speaker": "Tom",
+      "en": "My cat sleeps all day!",
+      "zh": "我的猫整天都在睡觉！"
+     }
+    ]
+   },
+   "fill": [
+    {
+     "q": "She ___ water. (drink)",
+     "zh": "她喝水。",
+     "answer": "drinks",
+     "options": [
+      "drink",
+      "drinks"
+     ],
+     "why": "主语是 she（她），「他她它做事，动词加 s」，所以是 drinks。"
+    },
+    {
+     "q": "I ___ rice. (eat)",
+     "zh": "我吃米饭。",
+     "answer": "eat",
+     "options": [
+      "eat",
+      "eats"
+     ],
+     "why": "主语是 I（我），动词不变，用 eat。"
+    },
+    {
+     "q": "He ___ a book. (read)",
+     "zh": "他读一本书。",
+     "answer": "reads",
+     "options": [
+      "read",
+      "reads"
+     ],
+     "why": "主语是 he（他），动词加 s：reads。"
+    },
+    {
+     "q": "They ___ football. (play)",
+     "zh": "他们踢足球。",
+     "answer": "play",
+     "options": [
+      "play",
+      "plays"
+     ],
+     "why": "主语是 they（他们），动词不变：play。"
+    },
+    {
+     "q": "My father ___ every day. (work)",
+     "zh": "我爸爸每天工作。",
+     "answer": "works",
+     "options": [
+      "work",
+      "works"
+     ],
+     "why": "my father（我爸爸）相当于 he，动词加 s：works。"
+    },
+    {
+     "q": "We ___ to school. (go)",
+     "zh": "我们去上学。",
+     "answer": "go",
+     "options": [
+      "go",
+      "goes"
+     ],
+     "why": "主语是 we（我们），动词不变：go。"
+    }
+   ],
+   "translate": [
+    {
+     "zh": "我喜欢猫。",
+     "answers": [
+      "I like cats."
+     ],
+     "hint": "喜欢 = like，猫（泛指）= cats",
+     "why": "说「喜欢某种动物」时，英语习惯用复数：I like cats。"
+    },
+    {
+     "zh": "她喝水。",
+     "answers": [
+      "She drinks water."
+     ],
+     "hint": "喝 = drink，水 = water",
+     "why": "she 是「她」，动词要加 s：drinks。"
+    },
+    {
+     "zh": "我们去上学。",
+     "answers": [
+      "We go to school."
+     ],
+     "hint": "去上学 = go to school",
+     "why": "we 后面动词不变：go；「去上学」固定说 go to school。"
+    },
+    {
+     "zh": "他读一本书。",
+     "answers": [
+      "He reads a book."
+     ],
+     "hint": "读 = read，一本书 = a book",
+     "why": "he 是「他」，动词加 s：reads；「一本书」= a book。"
+    }
+   ],
+   "shadow": [
+    "I eat rice.",
+    "She drinks water.",
+    "I like cats.",
+    "We go to school.",
+    "He reads a book.",
+    "They play football."
+   ],
+   "dictation": [
+    {
+     "en": "I eat rice.",
+     "zh": "我吃米饭。"
+    },
+    {
+     "en": "She drinks water.",
+     "zh": "她喝水。"
+    },
+    {
+     "en": "We go to school.",
+     "zh": "我们去上学。"
+    },
+    {
+     "en": "He reads a book.",
+     "zh": "他读一本书。"
+    },
+    {
+     "en": "They play football.",
+     "zh": "他们踢足球。"
+    }
+   ],
+   "skits": [
+    {
+     "id": "s3",
+     "title": "早餐时间",
+     "scene": "🍞 🥛 🐱",
+     "cast": [
+      "Mom",
+      "Tom",
+      "Amy"
+     ],
+     "points": [
+      {
+       "name": "长元音 /iː/ 和短元音 /ɪ/",
+       "note": "eat、sleep 的 ee 要拉长、嘴角往两边拉；it、drink 的 i 短而放松。读错会变成另一个词：sheep（绵羊）≠ ship（船）。",
+       "drill": [
+        "eat / it",
+        "sheep / ship",
+        "leave / live"
+       ],
+       "kind": "pair"
+      },
+      {
+       "name": "动词加 s 的读法",
+       "note": "清辅音后面读 /s/（sleeps、eats、works）；元音和浊辅音后面读 /z/（reads、plays）。",
+       "drill": [
+        "sleeps",
+        "eats",
+        "plays"
+       ],
+       "kind": "word"
+      }
+     ],
+     "lines": [
+      {
+       "speaker": "Mom",
+       "en": "Tom, eat your bread.",
+       "zh": "Tom，吃你的面包。"
+      },
+      {
+       "speaker": "Tom",
+       "en": "I drink milk first.",
+       "zh": "我先喝牛奶。"
+      },
+      {
+       "speaker": "Amy",
+       "en": "Look! The cat sleeps on my bed!",
+       "zh": "看！猫在我的床上睡觉！"
+      },
+      {
+       "speaker": "Mom",
+       "en": "It sleeps all day.",
+       "zh": "它整天都在睡。"
+      },
+      {
+       "speaker": "Tom",
+       "en": "And it eats all day!",
+       "zh": "而且它整天都在吃！"
+      },
+      {
+       "speaker": "Amy",
+       "en": "I like this cat.",
+       "zh": "我喜欢这只猫。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "emoji": "🍎",
+   "title": "a / an / the 和复数",
+   "subtitle": "一个苹果、两根香蕉",
+   "mnemonic": "元音开头用 an，其他都用 a；大家都知道的用 the；两个以上加 s",
+   "words": [
+    {
+     "id": "apple",
+     "en": "apple",
+     "zh": "苹果",
+     "ipa": "/ˈæpəl/",
+     "sound": "爱破",
+     "emoji": "🍎",
+     "example": {
+      "en": "I have an apple.",
+      "zh": "我有一个苹果。",
+      "form": "apple"
+     },
+     "ety": {
+      "origin": "来自古英语 æppel。在古英语里它可以指几乎任何水果。",
+      "story": "pineapple（菠萝）一开始指的是松果（pine 松树 + apple 果子），后来人们觉得菠萝长得像松果，就把名字给了它。",
+      "parts": [],
+      "family": "apple",
+      "related": [
+       {
+        "en": "pineapple",
+        "zh": "菠萝"
+       }
+      ]
+     }
+    },
+    {
+     "id": "egg",
+     "en": "egg",
+     "zh": "鸡蛋",
+     "ipa": "/eɡ/",
+     "sound": "艾格",
+     "emoji": "🥚",
+     "example": {
+      "en": "This is an egg.",
+      "zh": "这是一个鸡蛋。",
+      "form": "egg"
+     },
+     "ety": {
+      "origin": "来自古诺尔斯语（维京人的语言）egg。",
+      "story": "中世纪英格兰南方人把鸡蛋叫 eyren，北方人叫 eggys。1490 年印刷商 Caxton 记下了一个买鸡蛋时听不懂的故事。后来 egg 胜出。",
+      "parts": [],
+      "family": "egg",
+      "related": [
+       {
+        "en": "eggplant",
+        "zh": "茄子（最早的品种是白色的，像鸡蛋）"
+       }
+      ]
+     }
+    },
+    {
+     "id": "orange",
+     "en": "orange",
+     "zh": "橙子",
+     "ipa": "/ˈɔːrɪndʒ/",
+     "sound": "奥瑞奇",
+     "emoji": "🍊",
+     "example": {
+      "en": "She eats an orange.",
+      "zh": "她吃一个橙子。",
+      "form": "orange"
+     },
+     "ety": {
+      "origin": "来自阿拉伯语 nāranj，更早来自波斯语、梵语。",
+      "story": "开头本来有个 n：在法语和意大利语里，une narenge / una narancia 常被听成 une orenge / una arancia，n 被当成了冠词的一部分“跑掉了”。先有“橙子”这个水果名，后来才用来指橙色。",
+      "parts": [],
+      "family": null,
+      "related": [
+       {
+        "en": "orange juice",
+        "zh": "橙汁"
+       }
+      ]
+     }
+    },
+    {
+     "id": "banana",
+     "en": "banana",
+     "zh": "香蕉",
+     "ipa": "/bəˈnænə/",
+     "sound": "巴南娜",
+     "emoji": "🍌",
+     "example": {
+      "en": "The bananas are yellow.",
+      "zh": "这些香蕉是黄色的。",
+      "form": "bananas"
+     },
+     "ety": {
+      "origin": "16 世纪经葡萄牙语、西班牙语传入英语，最早可能来自西非的语言。",
+      "story": "所以 banana 这个词“旅行”过三大洲：非洲 → 欧洲 → 英语。",
+      "parts": [],
+      "family": null,
+      "related": []
+     }
+    },
+    {
+     "id": "car",
+     "en": "car",
+     "zh": "汽车",
+     "ipa": "/kɑːr/",
+     "sound": "卡",
+     "emoji": "🚗",
+     "example": {
+      "en": "That is a red car.",
+      "zh": "那是一辆红色的车。",
+      "form": "car"
+     },
+     "ety": {
+      "origin": "来自拉丁语 carrus（两轮的货车），本来指马车、车子，汽车发明后才指“汽车”。",
+      "parts": [
+       {
+        "part": "car / carr",
+        "meaning": "车"
+       }
+      ],
+      "family": "car",
+      "related": [
+       {
+        "en": "carry",
+        "zh": "搬运（原意：用车运）"
+       },
+       {
+        "en": "cargo",
+        "zh": "货物"
+       }
+      ]
+     }
+    },
+    {
+     "id": "house",
+     "en": "house",
+     "zh": "房子",
+     "ipa": "/haʊs/",
+     "sound": "豪斯",
+     "emoji": "🏠",
+     "example": {
+      "en": "The house is big.",
+      "zh": "这座房子很大。",
+      "form": "house"
+     },
+     "ety": {
+      "origin": "来自古英语 hūs，和德语 Haus 同源。",
+      "parts": [
+       {
+        "part": "house",
+        "meaning": "房子（可以和别的词组合）"
+       }
+      ],
+      "family": "house",
+      "related": [
+       {
+        "en": "housework",
+        "zh": "家务"
+       },
+       {
+        "en": "greenhouse",
+        "zh": "温室（green 绿色 + house）"
+       }
+      ]
+     }
+    },
+    {
+     "id": "umbrella",
+     "en": "umbrella",
+     "zh": "雨伞",
+     "ipa": "/ʌmˈbrelə/",
+     "sound": "安布瑞拉",
+     "emoji": "☂️",
+     "example": {
+      "en": "I need an umbrella.",
+      "zh": "我需要一把雨伞。",
+      "form": "umbrella"
+     },
+     "ety": {
+      "origin": "来自意大利语 ombrello，源自拉丁语 umbra（阴影）。",
+      "story": "最早的 umbrella 是用来挡太阳的“小阴凉”，不是挡雨的。",
+      "parts": [
+       {
+        "part": "umbr-",
+        "meaning": "阴影、阴凉"
+       },
+       {
+        "part": "-ella / -ello",
+        "meaning": "小的（意大利语的“小”词尾）"
+       }
+      ],
+      "family": "umbr",
+      "related": []
+     }
+    }
+   ],
+   "grammar": {
+    "title": "「一个」怎么说？多个怎么说？",
+    "intro": "英语里「一个」要说 a 或 an，多个东西要在词后面加 s。",
+    "points": [
+     {
+      "rule": "a + 辅音开头的词",
+      "examples": [
+       {
+        "en": "That is a red car.",
+        "zh": "那是一辆红色的车。"
+       }
+      ]
+     },
+     {
+      "rule": "an + 元音开头的词（读音以 a、e、i、o、u 开头）",
+      "examples": [
+       {
+        "en": "I have an apple.",
+        "zh": "我有一个苹果。"
+       },
+       {
+        "en": "I need an umbrella.",
+        "zh": "我需要一把雨伞。"
+       }
+      ]
+     },
+     {
+      "rule": "the = 这个 / 那个（说话双方都知道是哪一个）",
+      "examples": [
+       {
+        "en": "The house is big.",
+        "zh": "这座房子很大。"
+       }
+      ]
+     },
+     {
+      "rule": "两个以上：名词加 s，后面用 are",
+      "examples": [
+       {
+        "en": "The bananas are yellow.",
+        "zh": "这些香蕉是黄色的。"
+       },
+       {
+        "en": "Two bananas, please.",
+        "zh": "请给我两根香蕉。"
+       }
+      ]
+     }
+    ]
+   },
+   "story": {
+    "title": "去水果店",
+    "scene": "🏪 🍎 🍌 🍊",
+    "lines": [
+     {
+      "speaker": "Li",
+      "en": "Hello! I want an apple.",
+      "zh": "你好！我想要一个苹果。"
+     },
+     {
+      "speaker": "Seller",
+      "en": "Here is an apple. It is red.",
+      "zh": "给你一个苹果。它是红色的。"
+     },
+     {
+      "speaker": "Li",
+      "en": "Two bananas, please.",
+      "zh": "请给我两根香蕉。"
+     },
+     {
+      "speaker": "Seller",
+      "en": "The bananas are yellow and sweet.",
+      "zh": "这些香蕉又黄又甜。"
+     },
+     {
+      "speaker": "Li",
+      "en": "And an orange, too.",
+      "zh": "再要一个橙子。"
+     },
+     {
+      "speaker": "Seller",
+      "en": "OK. Here you are.",
+      "zh": "好的，给你。"
+     },
+     {
+      "speaker": "Li",
+      "en": "Thank you!",
+      "zh": "谢谢！"
+     }
+    ]
+   },
+   "fill": [
+    {
+     "q": "I have ___ apple.",
+     "zh": "我有一个苹果。",
+     "answer": "an",
+     "options": [
+      "a",
+      "an"
+     ],
+     "why": "apple 以元音 a 开头，用 an。"
+    },
+    {
+     "q": "That is ___ car.",
+     "zh": "那是一辆车。",
+     "answer": "a",
+     "options": [
+      "a",
+      "an"
+     ],
+     "why": "car 以辅音 c 开头，用 a。"
+    },
+    {
+     "q": "This is ___ egg.",
+     "zh": "这是一个鸡蛋。",
+     "answer": "an",
+     "options": [
+      "a",
+      "an"
+     ],
+     "why": "egg 以元音 e 开头，用 an。"
+    },
+    {
+     "q": "I need ___ umbrella.",
+     "zh": "我需要一把雨伞。",
+     "answer": "an",
+     "options": [
+      "a",
+      "an"
+     ],
+     "why": "umbrella 以元音 u 开头，用 an。"
+    },
+    {
+     "q": "Two ___, please. (banana)",
+     "zh": "请给我两根香蕉。",
+     "answer": "bananas",
+     "options": [
+      "banana",
+      "bananas"
+     ],
+     "why": "两根是多个，名词要加 s：bananas。"
+    },
+    {
+     "q": "The bananas ___ yellow.",
+     "zh": "这些香蕉是黄色的。",
+     "answer": "are",
+     "options": [
+      "is",
+      "are"
+     ],
+     "why": "bananas 是多个（复数），用 are。"
+    }
+   ],
+   "translate": [
+    {
+     "zh": "我有一个苹果。",
+     "answers": [
+      "I have an apple."
+     ],
+     "hint": "有 = have，苹果 = apple",
+     "why": "apple 以元音开头，「一个苹果」要说 an apple。"
+    },
+    {
+     "zh": "这是一个鸡蛋。",
+     "answers": [
+      "This is an egg."
+     ],
+     "hint": "鸡蛋 = egg",
+     "why": "egg 以元音开头，用 an：an egg。"
+    },
+    {
+     "zh": "那是一辆车。",
+     "answers": [
+      "That is a car.",
+      "That's a car."
+     ],
+     "hint": "那 = that，车 = car",
+     "why": "car 以辅音开头，用 a：a car。"
+    },
+    {
+     "zh": "这座房子很大。",
+     "answers": [
+      "The house is big.",
+      "This house is big."
+     ],
+     "hint": "房子 = house，大 = big",
+     "why": "特指这座房子，用 the house（或 this house）；「很大」直接说 is big。"
+    }
+   ],
+   "shadow": [
+    "I have an apple.",
+    "This is an egg.",
+    "She eats an orange.",
+    "The bananas are yellow.",
+    "That is a red car.",
+    "I need an umbrella."
+   ],
+   "dictation": [
+    {
+     "en": "I have an apple.",
+     "zh": "我有一个苹果。"
+    },
+    {
+     "en": "This is an egg.",
+     "zh": "这是一个鸡蛋。"
+    },
+    {
+     "en": "The house is big.",
+     "zh": "这座房子很大。"
+    },
+    {
+     "en": "That is a red car.",
+     "zh": "那是一辆红色的车。"
+    },
+    {
+     "en": "The bananas are yellow.",
+     "zh": "这些香蕉是黄色的。"
+    }
+   ],
+   "skits": [
+    {
+     "id": "s4",
+     "title": "水果店的雨伞",
+     "scene": "🏪 🍎 ☔",
+     "cast": [
+      "Amy",
+      "Li",
+      "Seller"
+     ],
+     "points": [
+      {
+       "name": "连读：an + 元音",
+       "note": "an 后面的词以元音开头，n 要和后面的音连起来：an apple 读成 a-napple，an egg 读成 a-negg。",
+       "drill": [
+        "an apple",
+        "an egg",
+        "an umbrella"
+       ],
+       "kind": "phrase"
+      },
+      {
+       "name": "单词重音",
+       "note": "多音节词只有一个音节读得重、长、高：ba-NA-na，um-BREL-la，OR-ange。重音放错，外国人很难听懂。",
+       "drill": [
+        "banana",
+        "umbrella",
+        "orange"
+       ],
+       "kind": "word"
+      }
+     ],
+     "lines": [
+      {
+       "speaker": "Amy",
+       "en": "I want an apple!",
+       "zh": "我想要一个苹果！"
+      },
+      {
+       "speaker": "Li",
+       "en": "And an egg, please.",
+       "zh": "再要一个鸡蛋，谢谢。"
+      },
+      {
+       "speaker": "Seller",
+       "en": "An apple and an egg. Here you are.",
+       "zh": "一个苹果和一个鸡蛋。给你们。"
+      },
+      {
+       "speaker": "Amy",
+       "en": "Is that an orange?",
+       "zh": "那是橙子吗？"
+      },
+      {
+       "speaker": "Seller",
+       "en": "Yes. And these are bananas.",
+       "zh": "是的。这些是香蕉。"
+      },
+      {
+       "speaker": "Li",
+       "en": "Oh no, it is raining! I need an umbrella.",
+       "zh": "哦不，下雨了！我需要一把雨伞。"
+      },
+      {
+       "speaker": "Seller",
+       "en": "Here is an umbrella.",
+       "zh": "给你一把雨伞。"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": {
+  "a": {
+   "zh": "一个（用在辅音开头的词前）",
+   "ipa": "/ə/"
+  },
+  "an": {
+   "zh": "一个（用在元音开头的词前）",
+   "ipa": "/ən/"
+  },
+  "the": {
+   "zh": "这个；那个（特指）",
+   "ipa": "/ðə/"
+  },
+  "after": {
+   "zh": "在……之后",
+   "ipa": "/ˈæftər/"
+  },
+  "all": {
+   "zh": "全部；整个",
+   "ipa": "/ɔːl/"
+  },
+  "am": {
+   "zh": "是（跟 I 连用）",
+   "ipa": "/æm/"
+  },
+  "is": {
+   "zh": "是（跟 he / she / it 连用）",
+   "ipa": "/ɪz/"
+  },
+  "are": {
+   "zh": "是（跟 you / we / they 和复数连用）",
+   "ipa": "/ɑːr/"
+  },
+  "amy": {
+   "zh": "Amy（女孩名，艾米）"
+  },
+  "amy's": {
+   "zh": "Amy 的"
+  },
+  "tom": {
+   "zh": "Tom（男孩名，汤姆）"
+  },
+  "li": {
+   "zh": "Li（人名，李）"
+  },
+  "and": {
+   "zh": "和；而且",
+   "ipa": "/ænd/"
+  },
+  "bed": {
+   "zh": "床",
+   "ipa": "/bed/"
+  },
+  "big": {
+   "zh": "大的",
+   "ipa": "/bɪɡ/"
+  },
+  "bread": {
+   "zh": "面包",
+   "ipa": "/bred/"
+  },
+  "milk": {
+   "zh": "牛奶",
+   "ipa": "/mɪlk/"
+  },
+  "rice": {
+   "zh": "米饭",
+   "ipa": "/raɪs/"
+  },
+  "water": {
+   "zh": "水",
+   "ipa": "/ˈwɔːtər/"
+  },
+  "books": {
+   "zh": "书（book 的复数，多本书）",
+   "ipa": "/bʊks/"
+  },
+  "cats": {
+   "zh": "猫（cat 的复数，多只猫）",
+   "ipa": "/kæts/"
+  },
+  "friends": {
+   "zh": "朋友们（friend 的复数）",
+   "ipa": "/frendz/"
+  },
+  "students": {
+   "zh": "学生们（student 的复数）",
+   "ipa": "/ˈstuːdənts/"
+  },
+  "eats": {
+   "zh": "吃（eat 加 s，用在 he / she / it 后）",
+   "ipa": "/iːts/"
+  },
+  "day": {
+   "zh": "天；白天",
+   "ipa": "/deɪ/"
+  },
+  "every": {
+   "zh": "每一个",
+   "ipa": "/ˈevri/"
+  },
+  "family": {
+   "zh": "家人；家庭",
+   "ipa": "/ˈfæməli/"
+  },
+  "football": {
+   "zh": "足球",
+   "ipa": "/ˈfʊtbɔːl/"
+  },
+  "good": {
+   "zh": "好的",
+   "ipa": "/ɡʊd/"
+  },
+  "morning": {
+   "zh": "早上",
+   "ipa": "/ˈmɔːrnɪŋ/"
+  },
+  "great": {
+   "zh": "很棒的",
+   "ipa": "/ɡreɪt/"
+  },
+  "have": {
+   "zh": "有",
+   "ipa": "/hæv/"
+  },
+  "he": {
+   "zh": "他",
+   "ipa": "/hiː/"
+  },
+  "she": {
+   "zh": "她",
+   "ipa": "/ʃiː/"
+  },
+  "it": {
+   "zh": "它",
+   "ipa": "/ɪt/"
+  },
+  "i": {
+   "zh": "我",
+   "ipa": "/aɪ/"
+  },
+  "you": {
+   "zh": "你；你们",
+   "ipa": "/juː/"
+  },
+  "we": {
+   "zh": "我们",
+   "ipa": "/wiː/"
+  },
+  "they": {
+   "zh": "他们；她们；它们",
+   "ipa": "/ðeɪ/"
+  },
+  "my": {
+   "zh": "我的",
+   "ipa": "/maɪ/"
+  },
+  "your": {
+   "zh": "你的",
+   "ipa": "/jʊr/"
+  },
+  "this": {
+   "zh": "这；这个",
+   "ipa": "/ðɪs/"
+  },
+  "that": {
+   "zh": "那；那个",
+   "ipa": "/ðæt/"
+  },
+  "he's": {
+   "zh": "= he is 他是"
+  },
+  "she's": {
+   "zh": "= she is 她是"
+  },
+  "i'm": {
+   "zh": "= I am 我是"
+  },
+  "that's": {
+   "zh": "= that is 那是"
+  },
+  "they're": {
+   "zh": "= they are 他们是"
+  },
+  "here": {
+   "zh": "这里；给你（Here is…）",
+   "ipa": "/hɪr/"
+  },
+  "hi": {
+   "zh": "嗨（比 hello 更随意）",
+   "ipa": "/haɪ/"
+  },
+  "need": {
+   "zh": "需要",
+   "ipa": "/niːd/"
+  },
+  "no": {
+   "zh": "不；不是",
+   "ipa": "/noʊ/"
+  },
+  "now": {
+   "zh": "现在",
+   "ipa": "/naʊ/"
+  },
+  "ok": {
+   "zh": "好的",
+   "ipa": "/ˌoʊˈkeɪ/"
+  },
+  "on": {
+   "zh": "在……上面",
+   "ipa": "/ɑːn/"
+  },
+  "please": {
+   "zh": "请",
+   "ipa": "/pliːz/"
+  },
+  "red": {
+   "zh": "红色的",
+   "ipa": "/red/"
+  },
+  "yellow": {
+   "zh": "黄色的",
+   "ipa": "/ˈjeloʊ/"
+  },
+  "sweet": {
+   "zh": "甜的",
+   "ipa": "/swiːt/"
+  },
+  "small": {
+   "zh": "小的",
+   "ipa": "/smɔːl/"
+  },
+  "school": {
+   "zh": "学校",
+   "ipa": "/skuːl/"
+  },
+  "thank": {
+   "zh": "感谢（Thank you = 谢谢你）",
+   "ipa": "/θæŋk/"
+  },
+  "to": {
+   "zh": "到；去",
+   "ipa": "/tuː/"
+  },
+  "too": {
+   "zh": "也",
+   "ipa": "/tuː/"
+  },
+  "two": {
+   "zh": "二；两个",
+   "ipa": "/tuː/"
+  },
+  "very": {
+   "zh": "非常",
+   "ipa": "/ˈveri/"
+  },
+  "want": {
+   "zh": "想要",
+   "ipa": "/wɑːnt/"
+  },
+  "with": {
+   "zh": "和……一起",
+   "ipa": "/wɪð/"
+  },
+  "what": {
+   "zh": "什么",
+   "ipa": "/wʌt/"
+  },
+  "yes": {
+   "zh": "是的",
+   "ipa": "/jes/"
+  },
+  "dad": {
+   "zh": "爸爸（口语）",
+   "ipa": "/dæd/"
+  },
+  "nice": {
+   "zh": "好的；令人愉快的",
+   "ipa": "/naɪs/"
+  },
+  "meet": {
+   "zh": "遇见；认识",
+   "ipa": "/miːt/"
+  },
+  "so": {
+   "zh": "这么；非常",
+   "ipa": "/soʊ/"
+  },
+  "cute": {
+   "zh": "可爱的",
+   "ipa": "/kjuːt/"
+  },
+  "first": {
+   "zh": "先；第一",
+   "ipa": "/fɜːrst/"
+  },
+  "look": {
+   "zh": "看",
+   "ipa": "/lʊk/"
+  },
+  "these": {
+   "zh": "这些",
+   "ipa": "/ðiːz/"
+  },
+  "oh": {
+   "zh": "哦",
+   "ipa": "/oʊ/"
+  },
+  "raining": {
+   "zh": "正在下雨",
+   "ipa": "/ˈreɪnɪŋ/"
+  }
+ },
+ "theories": [
+  {
+   "id": "input",
+   "n": 1,
+   "icon": "📖",
+   "name": "可理解输入",
+   "en": "Comprehensible Input",
+   "short": "大量听懂、看懂比自己水平高一点点的内容，语言就会自然学会。",
+   "detail": [
+    "语言学家 Krashen 提出：语言主要是靠「听懂、读懂」学会的，而不是靠死背规则。",
+    "关键是内容要「刚好能懂」：大部分都懂，只有一点点新东西。",
+    "语法书像自行车的辅助轮，可理解输入才是真正在骑车。"
+   ],
+   "inApp": "「小故事」：配图、配音的小对话，点句子看中文，点单词看意思和读音。",
+   "modes": [
+    "story",
+    "grammar"
+   ],
+   "sources": [
+    {
+     "label": "Lucas：4.4 万星英语指南把它放在第一位",
+     "url": "https://x.com/lksmlabc/status/2105689445974335584"
+    },
+    {
+     "label": "Rishi：语法是辅助轮，可理解输入才是骑车",
+     "url": "https://x.com/RishiHQ/status/2099218484508914040"
+    }
+   ]
+  },
+  {
+   "id": "srs",
+   "n": 2,
+   "icon": "🔁",
+   "name": "遗忘曲线 + 间隔重复",
+   "en": "Forgetting Curve & Spaced Repetition",
+   "short": "学过的东西几天就忘一大半，要在快忘的时候复习。",
+   "detail": [
+    "1885 年 Ebbinghaus 发现：学完的东西几天内就忘掉大半，临时突击一周后基本没了。",
+    "办法是在快要忘的时候复习一次，每复习一次，下次就能隔得更久。",
+    "本网站的间隔：学会后第 1 天、再过 3 天、7 天、14 天、30 天复习；答错就从头（明天）再来。"
+   ],
+   "inApp": "「今日复习」：每个学过的词自动进入复习队列，首页显示今天要复习几个。",
+   "modes": [
+    "review",
+    "words"
+   ],
+   "sources": [
+    {
+     "label": "Biblingo：遗忘曲线，突击第二天还行，一周后基本没了",
+     "url": "https://x.com/biblingoapp/status/2100298043882979707"
+    },
+    {
+     "label": "Benjamin Barrell：所有语言学习本质都是间隔重复",
+     "url": "https://x.com/barrelltech/status/2097988975361245264"
+    }
+   ]
+  },
+  {
+   "id": "recall",
+   "n": 3,
+   "icon": "🧠",
+   "name": "主动回忆 + 输出",
+   "en": "Active Recall & Output Loop",
+   "short": "不看答案，先自己想、自己说、自己写，比反复看更记得住。",
+   "detail": [
+    "每次「想出来」都在加固记忆，光看是在「认」，不是在「记」。",
+    "学习循环：输入 → 开口 → 发现说不出来的地方 → 拿到反馈 → 重新说 → 再复习。",
+    "所以练习里你要先自己选、自己打字，然后马上看到对错和中文讲解，错题会再练一次。"
+   ],
+   "inApp": "「练习」：看图选词、听音选图、填 am/is/are、中译英，马上告诉你对错和原因。",
+   "modes": [
+    "quiz",
+    "review"
+   ],
+   "sources": [
+    {
+     "label": "电驭叛客：输入、开口、发现问题、反馈、重说、复习的循环",
+     "url": "https://x.com/Ethon1029/status/2101981404200579556"
+    }
+   ]
+  },
+  {
+   "id": "context",
+   "n": 4,
+   "icon": "🧩",
+   "name": "在语境里记单词",
+   "en": "Words in Context",
+   "short": "单词放在句子里学，比抱着单词书硬背记得牢。",
+   "detail": [
+    "记得最牢的单词，都是在文章里、句子里反复碰到之后自然记住的。",
+    "所以本网站每个单词都配一个例句和中文翻译，练习里也有「句子填空」。",
+    "同一个词会在单词卡、故事、练习、听写里反复出现。"
+   ],
+   "inApp": "「学单词」：每个词都放在例句里；「练习」里的句子填空。",
+   "modes": [
+    "words",
+    "quiz",
+    "grammar"
+   ],
+   "sources": [
+    {
+     "label": "momoai沫沫：记得最牢的单词都是在文章里反复碰到的",
+     "url": "https://x.com/momoai_daily/status/2103024946276622614"
+    }
+   ]
+  },
+  {
+   "id": "shadow",
+   "n": 5,
+   "icon": "🎧",
+   "name": "跟读 + 听写（简单重复）",
+   "en": "Shadowing & Dictation",
+   "short": "打基础时，跟着读、听着写，简单的事重复做就有效。",
+   "detail": [
+    "跟读：听一句，模仿着说一句，录下自己的声音和原声比一比。",
+    "听写：听一句，把它打出来，马上看到哪里没听清、哪里拼错。",
+    "不用追求花样，选定内容，每天重复做。"
+   ],
+   "inApp": "「跟读」：听原声→录音→回放对比（支持的浏览器会自动打分）；「听写」：听句子→打字→逐词改错。",
+   "modes": [
+    "shadow",
+    "dictation"
+   ],
+   "sources": [
+    {
+     "label": "Jewel：选一套教材，跟着读、听着写，重复做",
+     "url": "https://x.com/JewelBTCFi/status/2098205386159354059"
+    }
+   ]
+  }
+ ],
+ "modes": {
+  "words": {
+   "name": "学单词",
+   "icon": "🃏",
+   "theory": "context",
+   "why": "每个词都放在句子里学，比单独背记得更牢，学过的词还会自动进入复习队列。"
+  },
+  "grammar": {
+   "name": "语法",
+   "icon": "📐",
+   "theory": "input",
+   "why": "先看懂口诀和真实例句，再去练习里自己用，理解了才记得住。"
+  },
+  "story": {
+   "name": "小故事",
+   "icon": "📖",
+   "theory": "input",
+   "why": "听懂、看懂刚好比你水平高一点点的小故事，是学语言最自然的方法。"
+  },
+  "quiz": {
+   "name": "练习",
+   "icon": "✏️",
+   "theory": "recall",
+   "why": "先自己想出答案再看对错，比反复看记得更牢。"
+  },
+  "shadow": {
+   "name": "跟读",
+   "icon": "🎙️",
+   "theory": "shadow",
+   "why": "模仿原声、录下自己的声音来对比，嘴巴和耳朵一起练。"
+  },
+  "dictation": {
+   "name": "听写",
+   "icon": "🎧",
+   "theory": "shadow",
+   "why": "把听到的句子写下来，马上就知道哪里没听清、哪里不会拼。"
+  },
+  "review": {
+   "name": "今日复习",
+   "icon": "🔁",
+   "theory": "srs",
+   "why": "在快要忘记的时候复习（1、3、7、14 天后），用最少的时间记得最牢。"
+  },
+  "skit": {
+   "name": "发音小短剧",
+   "icon": "🎭",
+   "theory": "shadow",
+   "why": "在有角色、有情节的小短剧里练发音，跟读模仿更自然，还能自己演一个角色录下来对比。"
+  },
+  "roots": {
+   "name": "词根家族",
+   "icon": "🌳",
+   "theory": "context",
+   "why": "知道单词从哪来、和哪些词是一家，就把孤立的单词串成了一张网，更容易记住和猜词。"
+  }
+ },
+ "rootFamilies": {
+  "name": "name / nom = 名字",
+  "friend": "frie- = 爱、亲近",
+  "stud": "stud- = 学习、用功",
+  "hap": "hap = 运气",
+  "er": "-er = 做……的人",
+  "ther": "-ther = 家人词尾",
+  "book": "book 组合词",
+  "phone": "phone = 声音",
+  "eat": "eat = 吃",
+  "drink": "drink 一家（i→a→u）",
+  "like": "like = 喜欢",
+  "go": "go 一家",
+  "read": "read = 解读",
+  "work": "work / erg = 做、工作",
+  "sleep": "sleep = 睡",
+  "apple": "apple = 果子",
+  "egg": "egg 组合词",
+  "car": "car = 车",
+  "house": "house 组合词",
+  "umbr": "umbr- = 阴影"
+ }
+}
